@@ -14,7 +14,7 @@ html {
   #header {
     border: 5px black solid;
     background-color: white;
-    margin-top: 50px;
+    margin-top: 70px;
     height: 180px;
   }
   #name {
@@ -55,20 +55,17 @@ html {
   .card {
     border: 5px black solid;
     background-color: white;
-    margin: 100px;
-    margin-left: 500px;
+    margin: auto;
+    margin-top: 70px;
+    width: 50%;
     padding: 25px;
+    margin-bottom: 70px;
   }
   .work {
-    margin: 100px;
+    margin: auto;
   }
   #work1 {
-    display: flex;
     border: solid 5px black;
-    margin: 100px;
-    width: 600px;
-    height: 200px;
-    
   }
   h3 {
     padding: 70px;
@@ -80,6 +77,7 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     background-color: white;
+    margin-top: 70px;
     margin-bottom: 70px;
     height: 125px;
   }
@@ -96,4 +94,7 @@ html {
     padding: 20px;
     transition: .3s ease;
     justify-content: center;
+  }
+  @media screen {
+    
   }
