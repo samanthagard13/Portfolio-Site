@@ -1,3 +1,30 @@
+# Portfolio-Site
+
+## Description
+
+This is a mock webpage design to show my latest projects and contact information for job applications.
+
+## Usage
+
+This site is deployed using GitHub Pages. 
+
+URL : 
+
+[Screenshot of website] (./assets/screenshot.png)
+
+## Features
+
+In full screen the labels appear over the images on hover.
+
+
+
+
+
+
+
+
+
+
 # 02 Advanced CSS: Portfolio
 
 ## Your Task
