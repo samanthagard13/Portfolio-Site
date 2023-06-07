@@ -117,7 +117,7 @@ html {
     font-size: large;
     border: solid 3px black;
     visibility: hidden;
-    opacity: 0
+    opacity: 0;
   }
     .work3-button {
     color: black;
@@ -130,7 +130,7 @@ html {
     font-size: large;
     border: solid 3px black;
     visibility: hidden;
-    opacity: 0
+    opacity: 0;
   }
   #work1:hover .work1-button,
   #work2:hover .work2-button,
@@ -230,6 +230,45 @@ html {
       width: 80%;
       margin-left: 18px;
     }
+    
+  .work1-button {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin-top: 220px;
+    margin-left: -55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    border: solid 3px black;
+    visibility: visible;
+    opacity: 1;
+   
+  }
+  .work2-button {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin-top: 160px;
+    margin-left: -118px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    border: solid 3px black;
+   visibility: visible;
+   opacity: 1;
+  }
+    .work3-button {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin-top: 160px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    border: solid 3px black;
+    visibility: visible;
+    opacity: 1;
+  
+  }
     .nav2 {
       margin-left: 15px;
     }
@@ -238,6 +277,7 @@ html {
   @media screen and (max-width: 576px) {
     #header {
       height: 360px;
+      margin-left: 35px;
     }
   
     .nav1 {
@@ -245,19 +285,58 @@ html {
       font-size: large;
       justify-content: center;
     }
-    .work {
-      margin-left: 15px;
-    }
     .card {
       display: flex;
       justify-content: center;
       width: 90%;
-      margin-left: 15px;
+      margin-left: 45px;
     }
     .card p {
       text-align: center;
     }
+    .work {
+      margin-left: 45px;
+    }
+    .work1-button {
+      color: black;
+      background-color: white;
+      padding: 5px;
+      margin-top: 350px;
+      margin-left: -35px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: medium;
+      border: solid 3px black;
+      visibility: visible;
+      opacity: 1;
+     
+    }
+    .work2-button {
+      color: black;
+      background-color: white;
+      padding: 5px;
+      margin-top: 243px;
+      margin-left: -78px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: medium;
+      border: solid 3px black;
+     visibility: visible;
+     opacity: 1;
+    }
+      .work3-button {
+      color: black;
+      background-color: white;
+      padding: 5px;
+      margin-top: 243px;
+      margin-left: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: medium;
+      border: solid 3px black;
+      visibility: visible;
+      opacity: 1;
+    
+    }
+    
     .nav2 {
-      margin-left: 25px;
+      margin-left: 45px;
     }
   }
