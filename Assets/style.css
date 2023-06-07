@@ -40,7 +40,7 @@ html {
     float: right;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-right: 45px;
+    margin-right: 40px;
     margin-top: 70px;
     padding: 5px;
     transition: .3s ease;
@@ -198,7 +198,9 @@ html {
     .card {
       width: 80%;
     }
-  
+    .work {
+      margin-left: 25px;
+    }
     #work1 {
       display: flex;
       justify-content: center;
@@ -228,6 +230,9 @@ html {
       width: 80%;
       margin-left: 18px;
     }
+    .nav2 {
+      margin-left: 15px;
+    }
   }
   
   @media screen and (max-width: 576px) {
@@ -240,9 +245,19 @@ html {
       font-size: large;
       justify-content: center;
     }
-  
+    .work {
+      margin-left: 15px;
+    }
     .card {
-      text-align: center;
+      display: flex;
+      justify-content: center;
       width: 90%;
+      margin-left: 15px;
+    }
+    .card p {
+      text-align: center;
+    }
+    .nav2 {
+      margin-left: 25px;
     }
   }
