@@ -8,7 +8,7 @@ This is a mock webpage design to show my latest projects and contact information
 
 This site is deployed using GitHub Pages. 
 
-URL : 
+URL : https://samanthagard13.github.io/Portfolio-Site/
 
 [Screenshot of website] (./assets/screenshot.png)
 
