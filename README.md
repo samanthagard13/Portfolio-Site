@@ -10,7 +10,7 @@ This site is deployed using GitHub Pages.
 
 URL : https://samanthagard13.github.io/Portfolio-Site/
 
-![Screenshot](./assets/screenshot.png)
+![Screenshot](./Assets/screenshot.png)
 
 ## Features
 
