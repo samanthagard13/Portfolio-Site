@@ -62,6 +62,19 @@ html {
     padding: 25px;
     margin-bottom: 70px;
   }
+
+  .portraitContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+#selfPortrait {
+  border: 5px black solid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
   .work {
     display: flex;
     justify-content: center;
